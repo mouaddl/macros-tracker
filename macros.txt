@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Suivi des Macros</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .bar { margin: 10px 0; height: 25px; background: #eee; border-radius: 5px; overflow: hidden; }
+    .bar-fill { height: 100%; text-align: right; padding-right: 5px; color: white; font-weight: bold; }
+    .calories { background: #ff6666; }
+    .proteins { background: #66cc66; }
+    .fats { background: #ffcc66; }
+    .carbs { background: #66b3ff; }
+    .fibers { background: #cc99ff; }
+    input { margin: 5px; width: 80px; }
+  </style>
+</head>
+<body>
+  <h1>Suivi des Objectifs de Macros</h1>
+
+  <div>
+    <label>Calories: <span id="calories-left">2000</span> kcal</label>
+    <div class="bar"><div class="bar-fill calories" id="calories-bar" style="width: 100%">2000</div></div>
+    
+    <label>Protéines: <span id="proteins-left">136</span> g</label>
+    <div class="bar"><div class="bar-fill proteins" id="proteins-bar" style="width: 100%">136g</div></div>
+
+    <label>Fibres: <span id="fibers-left">36</span> g</label>
+    <div class="bar"><div class="bar-fill fibers" id="fibers-bar" style="width: 100%">36g</div></div>
+
+    <l
